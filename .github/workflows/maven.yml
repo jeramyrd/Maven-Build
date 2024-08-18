@@ -30,5 +30,5 @@ jobs:
        user: ${{ secrets.LAB_USERNAME }}
        pass: ${{ secrets.LAB_PASSWORD }}
        port: ${{ secrets.LAB_PORT }}
-       connect_timeout: 10s
+       connect_timeout: 11s
        first_ssh: | sudo curl -I -u admin:1146444ce6cef94e50db2ac1c905830380 http://localhost:8080/job/Lesson_07_Lab_01/build?token=assured_insurance
